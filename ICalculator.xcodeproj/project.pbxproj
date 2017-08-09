@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		981ECF331F3B5DBD0001C44C /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981ECF321F3B5DBD0001C44C /* Main2.storyboard */; };
 		98BBCD381F3922F20092D350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BBCD371F3922F20092D350 /* AppDelegate.swift */; };
 		98BBCD3A1F3922F20092D350 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BBCD391F3922F20092D350 /* CalculatorViewController.swift */; };
 		98BBCD3D1F3922F20092D350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BBCD3B1F3922F20092D350 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981ECF321F3B5DBD0001C44C /* Main2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main2.storyboard; sourceTree = "<group>"; };
 		98BBCD341F3922F20092D350 /* ICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BBCD371F3922F20092D350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98BBCD391F3922F20092D350 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				98BBCD3E1F3922F20092D350 /* Assets.xcassets */,
 				98BBCD401F3922F20092D350 /* LaunchScreen.storyboard */,
 				98BBCD431F3922F20092D350 /* Info.plist */,
+				981ECF321F3B5DBD0001C44C /* Main2.storyboard */,
 			);
 			path = ICalculator;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			files = (
 				98BBCD421F3922F20092D350 /* LaunchScreen.storyboard in Resources */,
 				98BBCD3F1F3922F20092D350 /* Assets.xcassets in Resources */,
+				981ECF331F3B5DBD0001C44C /* Main2.storyboard in Resources */,
 				98BBCD3D1F3922F20092D350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
