@@ -39,6 +39,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		981ECF341F3B7FDE0001C44C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				981ECF321F3B5DBD0001C44C /* Main2.storyboard */,
+				98BBCD3B1F3922F20092D350 /* Main.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		981ECF351F3B7FFE0001C44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98BBCD3E1F3922F20092D350 /* Assets.xcassets */,
+				98BBCD401F3922F20092D350 /* LaunchScreen.storyboard */,
+				98BBCD431F3922F20092D350 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		98BBCD2B1F3922F20092D350 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +80,8 @@
 				98BBCD371F3922F20092D350 /* AppDelegate.swift */,
 				98BBCD491F3955F80092D350 /* CalculatorLogic.swift */,
 				98BBCD391F3922F20092D350 /* CalculatorViewController.swift */,
-				98BBCD3B1F3922F20092D350 /* Main.storyboard */,
-				98BBCD3E1F3922F20092D350 /* Assets.xcassets */,
-				98BBCD401F3922F20092D350 /* LaunchScreen.storyboard */,
-				98BBCD431F3922F20092D350 /* Info.plist */,
-				981ECF321F3B5DBD0001C44C /* Main2.storyboard */,
+				981ECF341F3B7FDE0001C44C /* StoryBoards */,
+				981ECF351F3B7FFE0001C44C /* Supporting Files */,
 			);
 			path = ICalculator;
 			sourceTree = "<group>";
