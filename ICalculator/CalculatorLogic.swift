@@ -63,7 +63,7 @@ class CalculatorLogic {
                 default:
                     break
             }
-        }
+        } 
         guard let value = result else { return nil }
         _ = clearAll()
         return String(describing: value)
@@ -93,6 +93,6 @@ class CalculatorLogic {
         operand1 = nil
         operand2 = nil
         operationType = nil
-        return ""
+        return "0"
     }
 }

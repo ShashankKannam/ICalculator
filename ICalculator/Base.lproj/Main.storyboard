@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="aU6-Ng-L9c">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="aU6-Ng-L9c">
                                 <rect key="frame" x="10" y="60" width="355" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="veL-JR-j1o"/>
@@ -218,7 +218,7 @@
                                         <rect key="frame" x="0.0" y="426.5" width="373" height="105.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPy-ib-gbm">
-                                                <rect key="frame" x="0.0" y="0.0" width="185.5" height="105.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="186" height="105.5"/>
                                                 <color key="backgroundColor" red="0.88787632869999999" green="0.89420700750000004" blue="0.91319904380000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -228,7 +228,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-bb-j3m">
-                                                <rect key="frame" x="186.5" y="0.0" width="93" height="105.5"/>
+                                                <rect key="frame" x="187" y="0.0" width="92.5" height="105.5"/>
                                                 <color key="backgroundColor" red="0.88787632869999999" green="0.89420700750000004" blue="0.91319904380000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title=".">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

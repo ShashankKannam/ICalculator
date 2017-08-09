@@ -31,7 +31,7 @@ class CalculatorViewController: UIViewController {
         if isUserInMiddleOfTyping {
             let textCurrentlyInDisplay = displayLbl.text!
             if (digit != ".") || (textCurrentlyInDisplay.range(of: ".") == nil) {
-                displayLbl.text = textCurrentlyInDisplay + digit
+                displayLbl.text = textCurrentlyInDisplay == "0" ? digit : textCurrentlyInDisplay + digit
             }
         } else {
             displayLbl.text = (digit == ".") ? "0." : digit
